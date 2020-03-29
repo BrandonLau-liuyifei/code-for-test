@@ -1,0 +1,5 @@
+url=www.baidu.com
+username=jnc
+password=123456
+yanzhengma=1234
+yanzhengma=1234
