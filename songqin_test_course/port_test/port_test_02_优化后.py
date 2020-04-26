@@ -43,7 +43,7 @@ for i in range(nrows):
         token_url1='http://ip:port/api/mgr/sq_mgr/?action=list_course&pagenum=1&pagesize=20'
         token_data={"userName":"liumoumou","password":"liumoumoudemima"}
         headers={"Content-Type":"application/json"}
-        resp=requests.post(token_url1,data=json.dumps("token_data"),headers="headers")
+        resp=requests.post(token_url1,data=json.dumps(token_data),headers="headers")
         token=resp.json()['token']
         print(token)
         # 2-2新增用户
