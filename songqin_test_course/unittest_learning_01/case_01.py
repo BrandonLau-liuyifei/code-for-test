@@ -8,13 +8,13 @@ class calculateTestCase(unittest.TestCase):
     def testAdd(self):
         self.assertEqual(1+1,2,msg="断言1+1=2")
     def testSubtraction(self):
-        self.assertEqual(1-1,2,msg="断言1-1=0")
+        self.assertEqual(1-1,0,msg="断言1-1=0")
 
 class userTestCase(unittest.TestCase):
     def testUser(self):
         self.assertEqual("zhangsan","zhangsan",msg="断言1+1=2")
 
-# if __name__=="__main__":
-#     unittest.main()
+if __name__=="__main__":
+    unittest.main()
 
 

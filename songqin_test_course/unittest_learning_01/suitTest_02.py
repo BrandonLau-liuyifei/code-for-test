@@ -2,10 +2,13 @@
 # -*- coding: UTF-8 -*-
 
 import unittest
-from foo.songQing.PythonAdvanced.unittestStu.test1 import CalculateTestCase, StringTestCase
-from foo.songQing.PythonAdvanced.unittestStu.HTMLTestRunner import HTMLTestRunner
+
+
 
 # 测试类集合
+from unittest_learning_01.HTMLTestRunner import HTMLTestRunner
+from unittest_learning_01.test_02 import CalculateTestCase, StringTestCase
+
 testCaseSli = [CalculateTestCase, StringTestCase]
 
 
