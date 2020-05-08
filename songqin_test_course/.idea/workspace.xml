@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58a7e716-381f-45e6-b1b1-0358d77c5088" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/port_test/port_test_02_优化后.py" beforeDir="false" afterPath="$PROJECT_DIR$/port_test/port_test_02_优化后.py" afterDir="false" />
-    </list>
+    <list default="true" id="58a7e716-381f-45e6-b1b1-0358d77c5088" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,15 +29,11 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="ProjectId" id="1XAH9CEyN9NJjm45Jc6I7Nebtda" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/env_auto_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,13 +43,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/unittest_learning_01" />
+      <recent name="$PROJECT_DIR$/interface_test" />
+      <recent name="$PROJECT_DIR$/database_test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cema" />
       <recent name="$PROJECT_DIR$/env_auto_test" />
       <recent name="$PROJECT_DIR$/interface_test" />
       <recent name="$PROJECT_DIR$/port_test" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/database_test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -72,8 +67,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in JingDong2Test.py (1)">
-    <configuration name="JingDong2Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests in testcase_01.py">
+    <configuration name="http_test_report.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/songqin_test_couese/unittest_learning_01/http_test_report.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="keyword_drive_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="songqin_test_couese" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,12 +79,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threads_auto_testcases/Selenium516/test_case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keyword_drive" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threads_auto_testcases/Selenium516/test_case/JingDong2Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keyword_drive/keyword_drive_01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="no_keyword_drive_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="songqin_test_couese" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keyword_drive" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keyword_drive/no_keyword_drive_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,74 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="register_test_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="songqin_test_couese" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_test/register_test_01_one.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in JingDong2Test.py (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="songqin_test_couese" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/more_threads/Selenium516/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/more_threads/Selenium516/test_case/JingDong2Test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in JingDong2Test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="songqin_test_couese" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threads_auto_testcases/Selenium516/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/threads_auto_testcases/Selenium516/test_case/JingDong2Test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in JingDongLoginTest.py (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="songqin_test_couese" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/more_threads/Selenium516/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/more_threads/Selenium516/test_case/JingDongLoginTest.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in JingDongLoginTest.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
+    <configuration name="Unittests in /Users/mac/PycharmProjects/songqin_test_course/threads_auto_testcases/Selenium516/test_case/JingDongLoginTest.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <module name="songqin_test_couese" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,13 +152,43 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in testcase_01.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="songqin_test_couese" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest_learning/unittest_learning_02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unittest_learning/unittest_learning_02/testcase_01.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in unittest_traning.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="songqin_test_couese" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest_learning/unittest_learning_02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unittest_learning/unittest_learning_02/unittest_traning.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in JingDong2Test.py (1)" />
-        <item itemvalue="Python tests.Unittests in JingDongLoginTest.py (1)" />
-        <item itemvalue="Python tests.Unittests in JingDong2Test.py" />
-        <item itemvalue="Python.JingDong2Test" />
-        <item itemvalue="Python.register_test_01" />
+        <item itemvalue="Python tests.Unittests in testcase_01.py" />
+        <item itemvalue="Python tests.Unittests in unittest_traning.py" />
+        <item itemvalue="Python.no_keyword_drive_01" />
+        <item itemvalue="Python.keyword_drive_01" />
+        <item itemvalue="JavaScript Debug.http_test_report.html" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +196,12 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@66c0ad3f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -260,23 +248,19 @@
       <workItem from="1582604706717" duration="1178000" />
       <workItem from="1582606211845" duration="7000" />
       <workItem from="1582649031556" duration="1161000" />
-      <workItem from="1587566649616" duration="3148000" />
+      <workItem from="1586685870366" duration="2247000" />
+      <workItem from="1587234553376" duration="684000" />
+      <workItem from="1587743792460" duration="245000" />
+      <workItem from="1587744314180" duration="14586000" />
+      <workItem from="1588000227862" duration="3353000" />
+      <workItem from="1588344989596" duration="14620000" />
+      <workItem from="1588474547458" duration="6782000" />
+      <workItem from="1588777065025" duration="1065000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -285,44 +269,26 @@
           <url>file://$PROJECT_DIR$/database_test/database_test_01_operation.py</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/port_test/port_test_02_优化后.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/port_test/port_test_02_优化后.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/port_test/port_test_02_优化后.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/port_test/port_test_02_优化后.py</url>
-          <line>45</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/port_test/port_test_02_优化后.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/songqin_test_couese$port_test_01.coverage" NAME="port_test_01 Coverage Results" MODIFIED="1580483783503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/port_test" />
     <SUITE FILE_PATH="coverage/songqin_test_couese$login_test_01.coverage" NAME="login_test_01 Coverage Results" MODIFIED="1580787362627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface_test" />
+    <SUITE FILE_PATH="coverage/songqin_test_couese$Unittests_in_unittest_traning_02_py.coverage" NAME="Unittests in unittest_traning_02.py Coverage Results" MODIFIED="1588433737894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_learning/unittest_learning_02" />
+    <SUITE FILE_PATH="coverage/songqin_test_couese$Unittests_in_JingDongLoginTest_py__1_.coverage" NAME="Unittests in JingDongLoginTest.py (1) Coverage Results" MODIFIED="1582649388339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/more_threads/Selenium516/test_case" />
+    <SUITE FILE_PATH="coverage/songqin_test_couese$port_test_02.coverage" NAME="port_test_02 Coverage Results" MODIFIED="1580632936069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/port_test" />
+    <SUITE FILE_PATH="coverage/songqin_test_couese$Unittests_in_interface_test_03_py.coverage" NAME="Unittests in interface_test_03.py Coverage Results" MODIFIED="1587818269660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface_test_03" />
     <SUITE FILE_PATH="coverage/songqin_test_couese$register_test_01.coverage" NAME="register_test_01 Coverage Results" MODIFIED="1580797798078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface_test" />
     <SUITE FILE_PATH="coverage/songqin_test_couese$database_test_01.coverage" NAME="database_test_01 Coverage Results" MODIFIED="1580570275762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database_test" />
-    <SUITE FILE_PATH="coverage/songqin_test_couese$Unittests_in_JingDongLoginTest_py__1_.coverage" NAME="Unittests in JingDongLoginTest.py (1) Coverage Results" MODIFIED="1582649388339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/more_threads/Selenium516/test_case" />
+    <SUITE FILE_PATH="coverage/songqin_test_couese$keyword_drive_01.coverage" NAME="keyword_drive_01 Coverage Results" MODIFIED="1588426798716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keyword_drive" />
     <SUITE FILE_PATH="coverage/songqin_test_couese$JingDong2Test.coverage" NAME="JingDong2Test Coverage Results" MODIFIED="1582606108158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threads_auto_testcases/Selenium516/test_case" />
-    <SUITE FILE_PATH="coverage/songqin_test_couese$port_test_02.coverage" NAME="port_test_02 Coverage Results" MODIFIED="1580632936069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/port_test" />
+    <SUITE FILE_PATH="coverage/songqin_test_couese$Unittests_in_case1_py.coverage" NAME="Unittests in case1.py Coverage Results" MODIFIED="1588001141129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_learning_01" />
+    <SUITE FILE_PATH="coverage/songqin_test_couese$suite1.coverage" NAME="suite1 Coverage Results" MODIFIED="1588002209451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_learning_01" />
+    <SUITE FILE_PATH="coverage/songqin_test_couese$no_keyword_drive_01.coverage" NAME="no_keyword_drive_01 Coverage Results" MODIFIED="1588426833726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keyword_drive" />
     <SUITE FILE_PATH="coverage/songqin_test_couese$Unittests_in_JingDongLoginTest_py.coverage" NAME="Unittests in JingDongLoginTest.py Coverage Results" MODIFIED="1582605608702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threads_auto_testcases/Selenium516/test_case" />
     <SUITE FILE_PATH="coverage/songqin_test_couese$Unittests_in_JingDong2Test_py__1_.coverage" NAME="Unittests in JingDong2Test.py (1) Coverage Results" MODIFIED="1582650089353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/more_threads/Selenium516/test_case" />
+    <SUITE FILE_PATH="coverage/songqin_test_couese$Unittests_in_testcase_01_py.coverage" NAME="Unittests in testcase_01.py Coverage Results" MODIFIED="1588523498927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest_learning/unittest_learning_02" />
     <SUITE FILE_PATH="coverage/songqin_test_couese$Unittests_in_JingDong2Test_py.coverage" NAME="Unittests in JingDong2Test.py Coverage Results" MODIFIED="1582606120815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threads_auto_testcases/Selenium516/test_case" />
   </component>
 </project>
