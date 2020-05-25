@@ -15,7 +15,7 @@ class check_test():
             checkinfo["str"]=row[0]
             checkinfo["type"]=row[1]
             s=requests.session()
-            response=s.post(self.url,data=checkinfo).json()
+            response=requests.post(self.url,data=checkinfo).json()
             print(response)
             #加断言、加测试结果写入excel
             r=response.find(row[2])

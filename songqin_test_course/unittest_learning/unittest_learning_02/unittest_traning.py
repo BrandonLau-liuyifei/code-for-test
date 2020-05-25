@@ -12,18 +12,19 @@ assert：断言
 import unittest
 
 class unittoday(unittest.TestCase):
-    # @classmethod
-    # def setUpClass(cls) -> None:
-    #     print("this is setupclass")
-    # @classmethod
-    # def tearDownClass(cls) -> None:
-    #     print("this is teardownclass")
-    #前置条件
-    def setUp(self) -> None:
-        print("this is setup")
-    #后置条件
-    def tearDown(self) -> None:
-        print("this is teardown")
+    @classmethod
+    def setUpClass(cls):
+        print("this is setupclass")
+    @classmethod
+    def tearDownClass(cls):
+        print("this is teardownclass")
+
+    # 前置条件
+    # def setUp(self) -> None:
+    #     print("this is setup")
+    # #后置条件
+    # def tearDown(self) -> None:
+    #     print("this is teardown")
     #创建测试用例
     def test_01(self):
         print("this is tastcase_01")
@@ -38,6 +39,7 @@ class unittoday(unittest.TestCase):
         a=1
         b=2
         print(a+b)
+
 
 if __name__=="__main__":
      unittest.main()

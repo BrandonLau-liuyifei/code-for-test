@@ -10,7 +10,7 @@ import requests
 # url = "http://tcc.taobao.com/cc/json/mobile_tel_segment.html"
 #get 请求的两种方式
 #方式1：请求方式参数保存在url里面
-url = "http://tcc.taobao.com/cc/json/mobile_tel_segment.html?tel=13922358271"
+url = "http://tcc.taobao.com/cc/json/mobile_tel_segment.htm?tel=18319011906"
 r = requests.get(url = url)
 print(r.text)
 print(r.url)
@@ -18,3 +18,13 @@ print(r.status_code)
 print(r.cookies)
 print(r.content)
 # 方式2：请求方式参数保存在params里面，字典方式保存
+url ="http://tcc.taobao.com/cc/json/mobile_tel_segment.htm"
+params = {
+    "tel":"13922358271"
+}
+r = requests.get(url=url,params=params)
+print(r.text)
+print(r.url)
+print(r.status_code)
+print(r.cookies)
+print(r.content)
