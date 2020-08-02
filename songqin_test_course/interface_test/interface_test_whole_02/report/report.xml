@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="MacBook-Pro.local" name="pytest" skipped="0" tests="3" time="0.041" timestamp="2020-08-01T17:15:11.336127"><testcase classname="test_case.test_case_01" file="test_case/test_case_01.py" line="0" name="test_1" time="0.002"><system-out>tsst_01
+</system-out></testcase><testcase classname="test_case.test_case_01" file="test_case/test_case_01.py" line="3" name="test_2" time="0.001"><failure message="assert 1 == 2">def test_2():
+        print(&apos;tsst_02&apos;)
+&gt;       assert 1==2
+E       assert 1 == 2
+
+../test_case/test_case_01.py:6: AssertionError</failure><system-out>tsst_02
+</system-out></testcase><testcase classname="test_case.test_case_01" file="test_case/test_case_01.py" line="6" name="test_3" time="0.001"><system-out>tsst_03
+</system-out></testcase></testsuite></testsuites>

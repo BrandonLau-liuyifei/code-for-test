@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58a7e716-381f-45e6-b1b1-0358d77c5088" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/interface_test/interface_test_whole_01/test_02_post.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_test/interface_test_whole_01/test_04_cookies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_test/interface_test_whole_01/test_05_headers_add.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_test/interface_test_whole_01/test_06_https_certificate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface_test/interface_test_whole_01/test_A07_upload_download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_test/interface_test_whole_01/111.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface_test/interface_test_01/check_test_01_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/interface_test_01/check_test_01_more.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface_test/interface_test_whole_01/test_02_get.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/interface_test_whole_01/test_02_get.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittest_learning/unittest_learning_02/unittest_traning.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittest_learning/unittest_learning_02/unittest_traning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface_test/interface_test_whole_01/test_A07_upload_download.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/interface_test_whole_01/test_A07_upload_download.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -299,6 +293,7 @@
       <workItem from="1589989897089" duration="690000" />
       <workItem from="1590074723243" duration="148000" />
       <workItem from="1590202937534" duration="1293000" />
+      <workItem from="1593063452209" duration="2037000" />
     </task>
     <servers />
   </component>

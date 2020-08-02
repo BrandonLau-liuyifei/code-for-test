@@ -1,4 +1,4 @@
-# requests中的headers请求参数
+ # requests中的headers请求参数
 # "headers发送请求，参数不是每个接口读必须要添加，开发可以定义"
 """
 二个例子
@@ -16,13 +16,13 @@
 3.搜索职位，点击查询
 """
 import requests
-url = 'https://search.51job.com/list/200200,000000,0000,00,9,99,%25E8%25BD%25AF%25E4%25BB%25B6%25E6%25B5%258B%25E8%25AF%2595%25E5%25B7%25A5%25E7%25A8%258B%25E5%25B8%2588,2,1.html?lang=c&stype=&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&providesalary=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare='
-r_51job = requests.get(url=url)
-print(r_51job.text)
-# 打印返回中文乱码
-print(r_51job.encoding) #打印返回信息为html界面的编码信息，html默认编码方式iso-8859-1
-r_51job.encoding = "GB2312"
-print(r_51job.text)
+# url = 'https://search.51job.com/list/200200,000000,0000,00,9,99,%25E8%25BD%25AF%25E4%25BB%25B6%25E6%25B5%258B%25E8%25AF%2595%25E5%25B7%25A5%25E7%25A8%258B%25E5%25B8%2588,2,1.html?lang=c&stype=&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&providesalary=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare='
+# r_51job = requests.get(url=url)
+# print(r_51job.text)
+# # 打印返回中文乱码
+# print(r_51job.encoding) #打印返回信息为html界面的编码信息，html默认编码方式iso-8859-1
+# r_51job.encoding = "GB2312"
+# print(r_51job.text)
 
 #发送请求需要cookies参数
 url_12306 = "https://kyfw.12306.cn/otn/leftTicket/query?leftTicketDTO.train_date=2020-05-20&leftTicketDTO.from_station=SHH&leftTicketDTO.to_station=FZS&purpose_codes=ADULT"
