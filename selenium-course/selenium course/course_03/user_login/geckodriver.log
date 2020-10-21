@@ -1,0 +1,253 @@
+1570607868123	geckodriver	INFO	geckodriver 0.21.0
+1570607868130	geckodriver	INFO	Listening on 127.0.0.1:52889
+1570607871143	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.rJNp0xyPCUv9"
+1570607875138	Marionette	INFO	Listening on port 52897
+1570607875517	Marionette	WARN	TLS certificate errors will be ignored for this session
+1570607875575	Marionette	DEBUG	[6442450945] Frame script loaded
+1570607875580	Marionette	DEBUG	[6442450945] Frame script registered
+1570607875599	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1570607875758	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1570607875896	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/
+1570607876028	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/
+1570607876161	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/
+1570607876557	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8080/oa/
+1570607876558	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8080/oa/
+1570607876630	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/login.do
+1570607876635	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/login.do
+1570607876636	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/login.do
+1570607876643	Marionette	INFO	Stopped listening on port 52897
+1570607876683	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+flushAllWindowsAsync()@resource:///modules/sessionstore/SessionStore.jsm:1697
+ssi_onQuitApplicationGranted/<()@resource:///modules/sessionstore/SessionStore.jsm:1624
+trigger()@resource://gre/modules/AsyncShutdown.jsm:710
+_wait()@resource://gre/modules/AsyncShutdown.jsm:857
+wait()@resource://gre/modules/AsyncShutdown.jsm:841
+observe()@resource://gre/modules/AsyncShutdown.jsm:524
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 5324, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5324, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1570608057818	geckodriver	INFO	geckodriver 0.21.0
+1570608057829	geckodriver	INFO	Listening on 127.0.0.1:52923
+1570608060894	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.cIFviLeh9TGI"
+1570608064708	Marionette	INFO	Listening on port 52931
+1570608064935	Marionette	WARN	TLS certificate errors will be ignored for this session
+1570608064966	Marionette	DEBUG	[6442450945] Frame script loaded
+1570608064970	Marionette	DEBUG	[6442450945] Frame script registered
+1570608064985	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1570608065189	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1570608065317	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/
+1570608065635	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/
+1570608066171	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/
+1570608066592	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8080/oa/
+1570608066592	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8080/oa/
+1570608066743	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/login.do
+1570608066883	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/login.do
+1570608068897	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/login.do
+1570608068937	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8080/oa/login.do
+1570608069018	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/
+1570608069023	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/
+1570608069115	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/
+1570608069440	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8080/oa/
+1570608069441	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8080/oa/
+1570608069487	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/login.do
+1570608069497	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/login.do
+1570608069521	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/login.do
+1570608069553	Marionette	INFO	Stopped listening on port 52931
+[Child 4740, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 5704, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5704, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 5968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1570610092861	geckodriver	INFO	geckodriver 0.21.0
+1570610092868	geckodriver	INFO	Listening on 127.0.0.1:53030
+1570610095893	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.mWmvnCJHZN44"
+1570610099916	Marionette	INFO	Listening on port 53038
+1570610100244	Marionette	WARN	TLS certificate errors will be ignored for this session
+1570610100297	Marionette	DEBUG	[6442450945] Frame script loaded
+1570610100299	Marionette	DEBUG	[6442450945] Frame script registered
+1570610100314	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1570610100373	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1570610100598	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/
+1570610100624	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/
+1570610100789	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/
+1570610101377	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8080/oa/
+1570610101379	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8080/oa/
+1570610101436	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/login.do
+1570610101443	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/login.do
+1570610101447	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/login.do
+1570610103465	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/index.jsp
+1570610103487	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8080/oa/index.jsp
+1570610103487	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8080/oa/index.jsp
+1570610103699	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450974
+1570610103763	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/
+1570610103767	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/
+1570610103907	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/
+1570610103944	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8080/oa/
+1570610103948	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8080/oa/
+1570610104069	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/login.do
+1570610104127	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/login.do
+1570610104170	Marionette	INFO	Stopped listening on port 53038
+1570610104208	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: TypeError: setting getter-only property "_currentSearchHostname" (resource://activity-stream/lib/TopSitesFeed.jsm:86:5) JS Stack trace: uninit@TopSitesFeed.jsm:86:5
+onAction@TopSitesFeed.jsm:707:9
+_middleware/</<@Store.jsm:51:11
+Store/this[method]@Store.jsm:29:55
+uninit@Store.jsm:170:7
+uninit@ActivityStream.jsm:363:5
+uninit@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:86:5
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@bootstrap.js:194:3
+callBootstrapMethod@XPIProvider.jsm:1592:20
+_shutdown@XPIProvider.jsm:1728:12
+flushAllWindowsAsync@SessionStore.jsm:1697:7
+ssi_onQuitApplicationGranted/<@SessionStore.jsm:1624:27
+trigger@AsyncShutdown.jsm:710:23
+_wait@AsyncShutdown.jsm:857:7
+wait@AsyncShutdown.jsm:841:28
+observe@AsyncShutdown.jsm:524:17
+GeckoDriver.prototype.quit@driver.js:3319:3
+despatch@server.js:297:20
+execute@server.js:271:11
+onPacket/<@server.js:246:15
+onPacket@server.js:245:8
+_onJSONObjectReady/<@transport.js:500:9
+[Child 5792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 4376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x4C0004,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+
+1570610109632	geckodriver	INFO	geckodriver 0.21.0
+1570610109639	geckodriver	INFO	Listening on 127.0.0.1:53064
+1570610112654	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.lAzmtgPnIX3V"
+1570610116368	Marionette	INFO	Listening on port 53072
+1570610116475	Marionette	WARN	TLS certificate errors will be ignored for this session
+1570610116507	Marionette	DEBUG	[6442450945] Frame script loaded
+1570610116510	Marionette	DEBUG	[6442450945] Frame script registered
+1570610116526	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1570610116773	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1570610116917	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/
+1570610117213	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/
+1570610117320	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/
+1570610117588	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8080/oa/
+1570610117589	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8080/oa/
+1570610117724	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/login.do
+1570610117729	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/login.do
+1570610117731	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/login.do
+1570610119741	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/index.jsp
+1570610119764	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8080/oa/index.jsp
+1570610119764	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8080/oa/index.jsp
+1570610120002	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450974
+1570610120092	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/
+1570610120097	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/
+1570610120296	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/
+1570610120342	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8080/oa/
+1570610120344	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8080/oa/
+1570610120473	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/login.do
+1570610120545	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/login.do
+1570610120548	Marionette	INFO	Stopped listening on port 53072
+[Child 5696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1570610132286	geckodriver	INFO	geckodriver 0.21.0
+1570610132293	geckodriver	INFO	Listening on 127.0.0.1:53100
+1570610135325	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.iM7hqoj1scFR"
+1570610139162	Marionette	INFO	Listening on port 53108
+1570610139343	Marionette	WARN	TLS certificate errors will be ignored for this session
+1570610139379	Marionette	DEBUG	[6442450945] Frame script loaded
+1570610139392	Marionette	DEBUG	[6442450945] Frame script registered
+1570610139421	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1570610139575	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1570610139722	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/
+1570610139749	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/
+1570610139861	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/
+1570610140364	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8080/oa/
+1570610140365	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8080/oa/
+1570610140618	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/login.do
+1570610140623	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/login.do
+1570610140626	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/login.do
+1570610142636	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/index.jsp
+1570610142651	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8080/oa/index.jsp
+1570610142652	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8080/oa/index.jsp
+1570610142861	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450974
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1570610142943	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/
+1570610142959	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/
+1570610143079	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/
+1570610143113	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8080/oa/
+1570610143114	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8080/oa/
+1570610143243	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/login.do
+1570610143310	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/login.do
+1570610145316	Marionette	INFO	Stopped listening on port 53108
+[Child 1504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3248, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3248, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 5236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

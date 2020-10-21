@@ -1,0 +1,66 @@
+1570585325980	geckodriver	INFO	geckodriver 0.21.0
+1570585325991	geckodriver	INFO	Listening on 127.0.0.1:49850
+1570585328928	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.9rQNamessmFe"
+1570585332903	Marionette	INFO	Listening on port 49858
+1570585333259	Marionette	WARN	TLS certificate errors will be ignored for this session
+1570585333294	Marionette	DEBUG	[6442450945] Frame script loaded
+1570585333300	Marionette	DEBUG	[6442450945] Frame script registered
+1570585335332	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1570585335391	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1570585335517	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/
+1570585335803	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/
+1570585341958	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/
+1570585342222	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8080/oa/
+1570585342222	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8080/oa/
+1570585342274	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/login.do
+1570585342282	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/login.do
+1570585342283	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/login.do
+1570585344474	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1570585344475	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450957
+1570585344475	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450958
+1570585344475	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1570585344476	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1570585344476	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1570585344557	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1570585348627	Marionette	INFO	Stopped listening on port 49858
+[Child 5532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: http://127.0.0.1:8080/oa/index.jsp, line 818: NS_ERROR_FAILURE: 
+[Parent 2868, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1570585566615	geckodriver	INFO	geckodriver 0.21.0
+1570585566622	geckodriver	INFO	Listening on 127.0.0.1:50022
+1570585569637	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.ZQIoZthxAMay"
+[GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+1570585573922	Marionette	INFO	Listening on port 50031
+1570585574120	Marionette	WARN	TLS certificate errors will be ignored for this session
+1570585574155	Marionette	DEBUG	[6442450945] Frame script loaded
+1570585574156	Marionette	DEBUG	[6442450945] Frame script registered
+1570585576182	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1570585576237	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1570585576357	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/
+1570585576478	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/
+1570585582652	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/
+1570585582911	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://127.0.0.1:8080/oa/
+1570585582912	Marionette	DEBUG	[6442450945] Received DOM event unload for http://127.0.0.1:8080/oa/
+1570585582963	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8080/oa/login.do
+1570585582970	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://127.0.0.1:8080/oa/login.do
+1570585582974	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8080/oa/login.do
+1570585585178	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1570585585178	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450957
+1570585585178	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450958
+1570585585178	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1570585585179	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1570585585179	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1570585585271	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1570585601610	Marionette	INFO	Stopped listening on port 50031
+[Child 6068, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6068, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: http://127.0.0.1:8080/oa/index.jsp, line 818: NS_ERROR_FAILURE: 
+[Child 5652, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5652, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
